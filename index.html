@@ -5,27 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img src="img/logo.svg" alt="logo">
-            UpDate
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Teachers</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">EN</a></li>
-                <li><a href="#">Sign In</a></li>
-                <li><a href="#">Trial free</a></li>
-            </ul>
-        </nav>
-
+    <header class="container header">
+        <div class="header__box">
+            <a class="logo" href="index.html">
+                <img src="img/logo.svg" alt="logo">
+                UpDate
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#">Courses</a></li>
+                    <li><a class="nav__link" href="#">Teachers</a></li>
+                    <li><a class="nav__link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>  
+        <div class="btn__box">
+            <a class="btn__link" href="#">EN</a>
+            <a class="btn__link" href="#">Sign In</a>
+            <a class="btn__button" href="#">Trial free</a>
+        </div>
     </header>
     <main>
         <section class="speciality">
@@ -54,6 +60,13 @@
                     <li><a href="#">ProtoPie</a></li>
                     <li><a href="#">InVision</a></li>
                 </ul>
+                <img src="/img/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients 1.png" alt="business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients">
+                <img src="img/Rectangle 107.svg" alt="Rectangle">
+            </div>
+            <div class="gradient__background">
+                <img src="img/Ellipse 21.png" alt="ellipse">
+                <img src="img/Ellipse 22.png" alt="ellipse">
+                <img src="img/Ellipse 20.png" alt="ellipce">
             </div>
         </section>
         <section class="profession">
@@ -78,16 +91,19 @@
                     <h2 class="preferrences__name">Portfolio</h2>
                     <p class="preferrences__description">You will learn how to create a brand identity on the web and for printing. Learn how to work in
                         Illustrator, Photoshop, InDesign and Figma</p>
+                    <img src="img/Rectangle 104.png" alt="rectangle__green">
                 </article>
                 <article class="preferrences__item">
                     <h2 class="preferrences__name">Intership</h2>
                     <p class="preferrences__description">You will learn how to create a brand identity on the web and for printing. Learn how to work in
                         Illustrator, Photoshop, InDesign and Figma</p>
+                    <img src="img/Rectangle 106.png" alt="rectangle__yello">
                 </article>
                 <article class="preferrences__item">
                     <h2 class="preferrences__name">Certificate</h2>
                     <p class="preferrences__description">You will learn how to create a brand identity on the web and for printing. Learn how to work in
                         Illustrator, Photoshop, InDesign and Figma</p>
+                    <img src="img/Rectangle 107.png" alt="rectangle__red">
                 </article>
             </div>
 
@@ -106,6 +122,7 @@
                     <p class="price_before">12 000$</p>
                     <p class="price_after">3 000$</p>
                     <button class="tariff__select">Choose</button>
+                    <img src="img/Rectangle 128.png" alt="rectangle__vertical__green">
                 </article>
                 <article class="tariff">
                     <h2>Optimal</h2>
@@ -119,6 +136,7 @@
                     <p class="price_before">24 000$</p>
                     <p class="price_after">6 000$</p>
                     <button class="tariff__select">Choose</button>
+                    <img src="img/Rectangle 129.png" alt="rectangle__vertical__blue">
                 </article>
                 <article class="tariff">
                     <h2>Premium</h2>
@@ -132,11 +150,12 @@
                     <p class="price_before">64 000$</p>
                     <p class="price_after">18 000$</p>
                     <button class="tariff__select">Choose</button>
+                    <img src="img/Rectangle 130.png" alt="rectangle__vertical__green">
                 </article>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="container__footer">
         <div class="contact">
             <a href="index.html">
                 <img src="img/logo.svg" alt="logo">
