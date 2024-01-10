@@ -79,6 +79,7 @@ body {
     width: 100%;
     background-color: #19191C;
     color: #FBFBFC;
+    min-width: 1920px;
 }
 
 .footer__box {
