@@ -11,6 +11,8 @@ body {
     width: 1440px;
 }
 
+/* Header stylesheet*/
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -74,19 +76,25 @@ body {
     padding: 12px 37px 12px 37px;
 }
 
+/* Footer stylesheet*/
+
+
 .container__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 68px 0 68px 0;
     width: 100%;
     background-color: #19191C;
     color: #FBFBFC;
-    min-width: 1920px;
+    
 }
 
 .footer__box {
     display: flex;
-    justify-content: space-between;
-    padding: 0 240px 0 240px;
+    justify-content: center;
     gap: 146px;
+    width: 1440px;
 }
 
 .contact {
@@ -169,4 +177,106 @@ body {
     color: #6D6D77;
     font: 400 18px/28px Inter,sans-serif;
     text-decoration: none;
+}
+
+/* Section 'Prices' stylesheet*/
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.prices__container {
+    display: block;
+    width: 1440px;
+}   
+}
+.prices__title{
+    font: 700 58px/70px Inter,sans-serif;
+    color: #19191C;
+    padding: 171px 0 100px 0;
+    width: 500px;
+    margin: 0;
+}
+
+.plans__container{
+    display: flex;
+    justify-content: center;
+    padding: 0 240px 168px;
+    gap: 20px;
+    width: 1440px;
+}
+
+.tariff{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 48px 51px 51px 68px;
+    width: 469px;
+    height: 732px;
+
+}
+.tariff h2{
+    font: 700 34px Inter;
+    margin: 0;
+    padding: 0;
+}
+
+.tariff ul{
+    padding-bottom: 50%;
+}
+
+.tariff li{
+    list-style: square;
+    font: 400 18px/28px Inter;
+    margin-bottom: 22px;
+    margin-left: -19px;
+}
+
+.price__before{
+    font: 700 24px/26px Inter;
+    color: #6D6D77;
+    margin: 0;
+    padding: 0;
+}
+
+.price__after{
+    font: 700 58px Inter;
+    color: #19191C;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.tariff__select{
+    background-color: #19191C;
+    color: #FBFBFC;
+    font:700 24px/26px Inter;
+    padding: 16px 36px;
+    border: none;
+}
+
+.base{
+    background-image: url(/img/Rectangle\ 128.png);
+}
+
+.optimal {
+    background-image: url(/img/Rectangle\ 129.png);
+    color: #FBFBFC;
+}
+
+.optimal .price__before{
+    color: #FBFBFC;
+}
+
+.optimal .price__after{
+    color: #FBFBFC;    
+}
+
+.premium {
+    background-image: url(/img/Rectangle\ 130.png);
+}
+.optimal .tariff__select{
+    background-color: #FBFBFC;
+    color: #504DEE;
 }
