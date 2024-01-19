@@ -33,7 +33,7 @@ ul{
 }
 
 .bg__image{
-    background-image: url(/img/girl.png), url(/img/Rectangle\ 107.svg), url(/img/Ellipse\ 20.png);
+    background-image: url(../img/girl.png), url(../img/Rectangle107.svg), url(../img/Ellipse20.png);
     background-repeat: no-repeat;
     background-position: 96.7% 100%, 82% 100%, 8% 8%;
 }
