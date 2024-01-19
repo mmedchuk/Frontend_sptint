@@ -8,60 +8,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
 
 </head>
 
 <body>
-    <header class="header container">
-        <div class="header__box">
-            <a class="logo" href="index.html">
-                <img src="img/logo.svg" alt="logo">
-                UpDate
-            </a>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li><a class="nav__link" href="#">Courses</a></li>
-                    <li><a class="nav__link" href="#">Teachers</a></li>
-                    <li><a class="nav__link" href="#">Blog</a></li>
-                </ul>
-            </nav>
-        </div>  
-        <div class="btn__box">
-            <a class="btn__link" href="#">EN</a>
-            <a class="btn__link" href="#">Sign In</a>
-            <a class="btn__button" href="#">Trial free</a>
-        </div>
-    </header>
+    <div class="bgcolor__wrapper">
+        <header class="header container">
+            <div class="header__box">
+                <a class="logo" href="index.html">
+                    <img src="img/logo.svg" alt="logo">
+                    UpDate
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a class="nav__link" href="#">Courses</a></li>
+                        <li><a class="nav__link" href="#">Teachers</a></li>
+                        <li><a class="nav__link" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>  
+            <div class="btn__box">
+                <a class="btn__link" href="#">EN</a>
+                <a class="btn__link" href="#">Sign In</a>
+                <a class="btn__button" href="#">Trial free</a>
+            </div>
+        </header>
+    </div>
+        
 
     <main>
-        <section class="info_box container">
-            <div class="speciality">
-                <h4 class="speciality__duration">6 month</h4>
-                <h4 class="speciality__profession">profession:</hy>
-                <h1 class="speciality__title section__title">UI/UX designer </h1>
-                <h5 class="speciality__description">
-                            You will learn how to create a brand identity on the web and for printing. Learn how to work in
-                            Illustrator, Photoshop, InDesign and Figma. Add posters, logos, merch design and other strong
-                            projects to your portfolio. Start a career in the studio or freelance.
-                </h5>
-                <button class="select__button">Started</button>
-                <h1 class="speciality__discount">25%</h1>
-                <div class="speciality__timeleft">
-                         <h4>17 Days</h4>
-                        <time>17:44:16</time>
-                </div>
-            </div>    
-           <ul class="selector">
-                <li class="invision"><a href="#">InVision</a></li>
-                <li class="protopie"><a href="#">ProtoPie</a></li>
-                <li class="miro"><a href="#">Miro</a></li>
-                <li class="photoshop"><a href="#">Photoshop</a></li>
-                <li class="figma"><a href="#">Figma</a></li>
-                <li class="illustrator"><a href="#">Illustrator</a></li>             
-           </ul>   
-        </div>   
-        </section>
+        <div class="bgcolor__wrapper bg__image">
+            <section class="info__box container">
+                <div class="speciality">
+                    <h4 class="speciality__duration">6 months</h4>
+                    <h4 class="speciality__profession">profession:</hy>
+                    <h1 class="speciality__title section__title">UI/UX designer </h1>
+                    <h5 class="speciality__description">
+                                You will learn how to create a brand identity on the web and for printing. Learn how to work in
+                                Illustrator, Photoshop, InDesign and Figma. Add posters, logos, merch design and other strong
+                                projects to your portfolio. Start a career in the studio or freelance.
+                    </h5>
+                    <button class="select__button">Started</button>
+                    <h1 class="speciality__discount section__title">25%</h1>
+                    <div class="speciality__timeleft">
+                            <date>17 Days</date>
+                            <time>17:44:16</time>
+                    </div>
+                </div>    
+            <ul class="selector">
+                    <li><a class="selector__item invision" href="#">InVision</a></li>
+                    <li><a class="selector__item protopie" href="#">ProtoPie</a></li>
+                    <li><a class="selector__item miro" href="#">Miro</a></li>
+                    <li><a class="selector__item photoshop" href="#">Photoshop</a></li>
+                    <li><a class="selector__item figma" href="#">Figma</a></li>
+                    <li><a class="selector__item illustrator" href="#">Illustrator</a></li>             
+            </ul>     
+            </section>
+        </div>
         
         <section class="profession container">
             <div class="profession__box">
@@ -72,14 +76,14 @@
                         laborum et dolorum fuga.</h5>
                 </div>
                 <div class="profession__salary">
-                    <h1 class="job__ammount section__title">5 000 $</h1>
-                        <h4 class="job__name">Salary</h4>
-                        <h5 class="job__description">Nam libero tempore, cum soluta nobis es</h5>
+                    <h1 class="item__ammount section__title">5 000 $</h1>
+                        <h4 class="item__name">Salary</h4>
+                        <h5 class="item__description">Nam libero tempore, cum soluta nobis es</h5>
                 </div>
                 <div class="profession__vacancies">
-                    <h1 class="vacancies__ammount section__title">4 225</h1>
-                        <h4 class="vacancies__name">Vacancies</p>
-                        <h5 class="vacancies__description">Vero eos et accusamus</h5>
+                    <h1 class="item__ammount section__title">4 225</h1>
+                        <h4 class="item__name">Vacancies</h4>
+                        <h5 class="item__description">Vero eos et accusamus</h5>
                 </div>       
             </div>
             
@@ -103,51 +107,57 @@
         </section>
 
         <section class="prices container">
-            <div class="prices__container">
+            <div class="prices__infobox">
                 <h1 class="prices__title section__title">Discover Our Prices</h1>
             </div>
             <div class="tariff__container">
                 <article class="tariff base">
-                    <h2 class="tariff__name">Base</h2>
-                    <ul class="tariff__items">
-                        <li>Et dolorum fuga et harum quidem rerum</li>
-                        <li>Mentors and community support</li>
-                        <li>Necessitatibus saepe</li>
-                        <li>Ut aut reiciendis</li>
-                    </ul>
+                    <div class="wrapper">
+                        <h2 class="tariff__name">Base</h2>
+                        <ul class="tariff__items">
+                            <li class="tariff__item">Et dolorum fuga et harum quidem rerum</li>
+                            <li class="tariff__item">Mentors and community support</li>
+                            <li class="tariff__item">Necessitatibus saepe</li>
+                            <li class="tariff__item">Ut aut reiciendis</li>
+                        </ul>
+                    </div>
                     <div class="tariff__info">
-                        <p class="price__before">12 000$</p>
-                        <p class="price__after section__title">3 000$</p>
+                        <h5 class="price__before">12 000$</h5>
+                        <h5 class="price__after section__title">3 000$</h5>
                         <button class="tariff__select">Choose</button>
                     </div>   
                 </article>
                 <article class="tariff optimal">
-                    <h2 class="tariff__name">Optimal</h2>
-                    <ul class="tariff__items">
-                        <li>Rerum hic tenetur a sapiente</li>
-                        <li>Consectetur, adipisci velit</li>
-                        <li>Ut aliquid ex ea commodi consequatur</li>
-                        <li>Eum fugiat quo voluptas nulla</li>
-                        <li>Illo inventore veritatis et quasi architecto</li>
-                    </ul>
+                    <div class="wrapper">
+                        <h2 class="tariff__name optimal">Optimal</h2>
+                        <ul class="tariff__items">
+                            <li class="tariff__item">Rerum hic tenetur a sapiente</li>
+                            <li class="tariff__item">Consectetur, adipisci velit</li>
+                            <li class="tariff__item">Ut aliquid ex ea commodi consequatur</li>
+                            <li class="tariff__item">Eum fugiat quo voluptas nulla</li>
+                            <li class="tariff__item">Illo inventore veritatis et quasi architecto</li>
+                        </ul>
+                    </div>
                     <div class="tariff__info">
-                        <p class="price__before">24 000$</p>
-                        <p class="price__after section__title">6 000$</p>
-                        <button class="tariff__select">Choose</button>
+                        <h5 class="price__before optimal">24 000$</h5>
+                        <h5 class="price__after section__title optimal">6 000$</h5>
+                        <button class="tariff__select optimal__button">Choose</button>
                     </div> 
                 </article>
                 <article class="tariff premium">
-                    <h2 class="tariff__name">Premium</h2>
-                    <ul class="tariff__items">
-                        <li>Ullamco laboris nisi ut</li>
-                        <li>Voluptate velit esse cillum</li>
-                        <li>Qui in ea voluptate velit esse quam nihil molestiae</li>
-                        <li>Necessitatibus saepe eveniet</li>
-                        <li>Sunt in culpa qui officia</li>
-                    </ul>
+                    <div class="wrapper">
+                        <h2 class="tariff__name">Premium</h2>
+                        <ul class="tariff__items">
+                            <li class="tariff__item">Ullamco laboris nisi ut</li>
+                            <li class="tariff__item">Voluptate velit esse cillum</li>
+                            <li class="tariff__item">Qui in ea voluptate velit esse quam nihil molestiae</li>
+                            <li class="tariff__item">Necessitatibus saepe eveniet</li>
+                            <li class="tariff__item">Sunt in culpa qui officia</li>
+                        </ul>
+                    </div>
                     <div class="tariff__info">
-                        <p class="price__before">64 000$</p>
-                        <p class="price__after section__title">18 000$</p>
+                        <h5 class="price__before">64 000$</h5>
+                        <h5 class="price__after section__title">18 000$</h5>
                         <button class="tariff__select">Choose</button>
                     </div>  
                 </article>
